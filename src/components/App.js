@@ -22,7 +22,7 @@ class App extends Component {
             <div>
                 <h3>{this.state.task.title}</h3>
                 <h3>{this.state.task.done.toString()}</h3>
-                <button onClick={this.handleClick}>
+                <button onClick={this.handleClick} className="btn btn-primary">
                     Click
                 </button>
             </div>

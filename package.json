@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server",
+    "start": "webpack-dev-server --open",
     "prod": "webpack -p"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
+    "bootstrap": "^4.3.1",
     "css-loader": "^3.2.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
