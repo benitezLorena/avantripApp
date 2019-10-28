@@ -17,4 +17,10 @@
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    z-index: 1;
+    align-items: center;
+    width: 100%;
 }
