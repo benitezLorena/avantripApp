@@ -1,0 +1,16 @@
+.contentCardHeader{
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.12);
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin-right: 10px;
+    p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .offerPriceSince{
+        font-size: 14px;
+        color: #0192d5;
+        text-decoration: none;
+    }
+}

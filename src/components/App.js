@@ -1,34 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import CardList from "./CardList";
+import SearchResponseTitle from "./SearchResponseTitle";
+import CardListHeader from "./CardListHeader";
 
-class App extends Component {
-
-    state = {
-        task: {
-            title: 'My First component',
-            done: true
-        }
-    };
-
-    handleClick = () => {
-        const task = this.state.task;
-        task.done = !task.done;
-        this.setState({
-            task
-        });
-    }
-
-    render() {
-        return (
-            <div>
-                <h3>{this.state.task.title}</h3>
-                <h3>{this.state.task.done.toString()}</h3>
-                <button onClick={this.handleClick} className="btn btn-primary">
-                    Click
-                </button>
-            </div>
-        )
-    }
-
+const App = () => {
+    return (
+        <div>
+            <main className="container">
+                <CardListHeader />
+                <SearchResponseTitle />
+                <CardList />
+            </main>
+            
+        </div>
+    )
 }
 
 export default App;

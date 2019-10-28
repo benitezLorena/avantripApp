@@ -1,0 +1,79 @@
+.contentCard{
+    margin-right: 20px;
+    min-height: 380px;
+    .contentActionCard{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        overflow: hidden;
+        margin-bottom: 20px;
+        font-family: Roboto;
+        -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.12);
+        border-radius: 2px;
+        cursor: pointer;
+        &:hover{
+            transition: box-shadow .2s ease-out;
+            box-shadow: 0 10px 15px rgba(68,68,68,0.2);
+        }
+        img{
+            border-radius: 2px;
+            width: 100%;
+        }
+        .contentArticles{
+            padding: 15px;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-align-content: stretch;
+            -ms-flex-line-pack: stretch;
+            align-content: stretch;
+            -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            span{
+                font-size: 11px;
+            }
+            p{
+                color: #e1020a;
+                font-weight: bold;
+            }
+            .contentPrice{
+                p{
+                    font-size: 24px;
+                }
+            }
+        }
+        .actionLink{
+            padding: 0 15px 15px 15px;
+            display: inline-block;
+            text-align: right;
+            a{
+                text-decoration: none; 
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .contentCard{
+        margin-right: 0;
+    }
+ }
