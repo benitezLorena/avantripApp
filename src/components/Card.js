@@ -3,8 +3,9 @@ import './styles/card.scss';
 
 const Card = () => {
     return(
-        <div className="contentCard">
-            <a className="contentActionCard">
+        <div className="col-sm-12 col-lg-3">
+            <div className="contentCard">
+            <div className="contentActionCard">
                 <figure>
                         <img src="https://via.placeholder.com/150" alt="img" />
                 </figure>
@@ -24,8 +25,10 @@ const Card = () => {
                 <div className="actionLink">
                     <a href="https://www.avantrip.com/">Ver vuelo</a>
                 </div>
-            </a>
+            </div>
         </div>
+        </div>
+        
     )
 }
 
