@@ -27,7 +27,9 @@ const CardListHeader = () => {
             <div className="row no-gutter contentListHeader">
                 {                 
                     data.allStayDatas.map((item) => 
-                        <CardHeader key={item.id} description={item.label} price={item.bestPrice}  />
+                        <CardHeader key={item.id} 
+                            description={item.label} 
+                            price={item.bestPrice} />
                     )
                 } 
             </div>   

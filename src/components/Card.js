@@ -12,10 +12,10 @@ const Card = (props) => {
                 <div className="contentArticles">
                     <article>
                         <div>
-                            <i className="glyphicon glyphicon-plane">icon</i>
+                            <i className="icon"></i>
                             <span>Directo</span>
                         </div>
-                        <p>7 dias en la playa</p>
+                        <p>7 dias playa</p>
                     </article>
                     <article className="contentPrice">
                         <span>Precios desde</span>

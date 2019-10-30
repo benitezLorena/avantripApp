@@ -9,7 +9,7 @@ const App = () => {
         <div>
             <main>
                 <Header />
-                <CardList />
+                <CardList  />
             </main>
             
         </div>

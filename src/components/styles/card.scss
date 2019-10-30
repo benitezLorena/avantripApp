@@ -26,8 +26,10 @@
             box-shadow: 0 10px 15px rgba(68,68,68,0.2);
         }
         img{
-            border-radius: 2px;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
             width: 100%;
+            
         }
         .contentArticles{
             padding: 15px;
@@ -52,9 +54,20 @@
             span{
                 font-size: 11px;
             }
+            .icon{
+                background: url("../../images/icon-flight.png");
+                width: 16px;
+                height: 16px;
+                display: inline-block;
+                position: relative;
+                top: 4px;
+                margin-right: 5px;;
+            }
             p{
                 color: #e1020a;
                 font-weight: bold;
+                font-size: 19px;
+                line-height: 20px;
             }
             .contentPrice{
                 p{
