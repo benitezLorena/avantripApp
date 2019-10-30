@@ -2,4 +2,13 @@
     background: darkolivegreen;
     position: relative;
     min-height: 125px;
+    .title{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        span{
+            font-weight: bold;
+        }
+    }
 }

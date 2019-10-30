@@ -2,21 +2,18 @@
 import Card from "./Card";
 import React, { useEffect, useState } from "react";
 
-const CardList = () => {
-    /*const [trips, setTrips] = useState([]);
+import "./styles/card-list.scss";
 
-    useEffect(() => {
-        let data = trips
-        setTrips(trips);
-    }, []);*/
-
-
+const CardList = (props) => {
+    
     return(
         <>
-            <div className="container cardList">
-                <div className="row no-gutters">
-                <Card   />
-                   
+            <div className="cardList">
+                <div className="container">
+                    <h2>Vuelos destacados en <span>todas las estadias</span></h2>
+                    <div className="row no-gutters">
+                        <Card />
+                     </div>
                 </div>
             </div>
         </>

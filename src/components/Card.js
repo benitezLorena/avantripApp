@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/card.scss';
 
-const Card = () => {
+const Card = (props) => {
     return(
         <div className="col-sm-12 col-lg-3">
             <div className="contentCard">
@@ -23,7 +23,7 @@ const Card = () => {
                     </article>
                 </div>
                 <div className="actionLink">
-                    <a href="https://www.avantrip.com/">Ver vuelo</a>
+                    <a href="">Ver vuelo</a>
                 </div>
             </div>
         </div>
