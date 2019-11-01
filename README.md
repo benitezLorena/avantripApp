@@ -1,4 +1,6 @@
-###Run the project with:
+## Installation
 
-npm install
+```
+npm install 
 npm start
+```
