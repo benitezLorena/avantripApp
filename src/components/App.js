@@ -37,16 +37,17 @@ const App = () => {
         setTitleStay(item.label)
     }
 
-    if (loading || error) return null;
-
+   
     return (
         <>
+         {(!loading && !error) &&
             <main>
                 <Logo />
                 <CardListHeader onSelected={onCardListSelected} />
                 <SearchResultTitle title={titleStay} />
                 <CardList items={data.allCards}  />
-            </main>            
+            </main>   
+         }         
         </>
     )
 }

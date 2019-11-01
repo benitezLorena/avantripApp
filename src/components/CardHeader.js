@@ -9,7 +9,7 @@ const CardHeader = (props) => {
             <div className="col-sm-2">
                 <button className="contentCardHeader" onClick={props.onClickCard} >
                     <p>{props.description}</p>
-                    <span className="offerPriceSince">desde {props.price}</span>
+                    <span className="offerPriceSince">desde ${props.price}</span>
                 </button>
             </div>
         </>
