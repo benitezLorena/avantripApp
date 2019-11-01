@@ -1,3 +1,4 @@
-Run the project with: 
+###Run the project with:
 
-"npm install && npm start"
+npm install
+npm start
