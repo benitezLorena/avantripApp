@@ -1,4 +1,4 @@
 Run the project with: 
 
--npm install
--npm run start
+npm install
+npm run start
