@@ -1,8 +1,8 @@
 .contentCard{
     margin-right: 20px;
-    min-height: 380px;
     background-color: white;
     .contentActionCard{
+        position: relative;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -20,6 +20,7 @@
         transition: 0.3s ease;
         box-shadow: 0 2px 5px rgba(0,0,0,0.12);
         border-radius: 2px;
+        min-height: 380px;
         cursor: pointer;
         &:hover{
             transition: box-shadow .2s ease-out;
@@ -70,6 +71,7 @@
                 line-height: 20px;
             }
             .contentPrice{
+                margin-bottom: 20px;
                 p{
                     font-size: 24px;
                 }
@@ -79,6 +81,9 @@
             padding: 0 15px 15px 15px;
             display: inline-block;
             text-align: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
             a{
                 text-decoration: none; 
             }

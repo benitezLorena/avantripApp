@@ -1,3 +1,4 @@
 Run the project with: 
 
-npm run start
+-npm install
+-npm run start

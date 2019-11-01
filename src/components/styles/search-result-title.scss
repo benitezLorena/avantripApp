@@ -1,0 +1,16 @@
+.search-result-title{
+    background-color: #eee;
+    h2{
+        padding: 30px 0;
+        color:#444;
+        text-align:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        span{
+            font-weight: bold;
+            padding-left: 10px;
+        }
+    }
+}
