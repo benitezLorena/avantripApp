@@ -15,18 +15,11 @@ const AppMain = () => (
     <ApolloProvider client={client}>
         <App />
     </ApolloProvider>
-  );
+);
 
-  render(
+render(
     <>
      <AppMain />
     </>,
     document.getElementById('app')
 );
-
-/*render(
-    <>
-        <App />
-    </>,
-    document.getElementById('app')
-);*/

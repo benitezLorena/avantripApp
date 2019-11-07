@@ -15,8 +15,8 @@ const CardList = (props) => {
                 <div className="container">
                     
                     <div className="row no-gutters">
-                        {                            
-                            cards.map((data) => <Card key={data.id} item={data} /> )
+                        {                                                    
+                            cards.map((row) => <Card key={row.id} item={row} /> )
                         }
                      </div>
                 </div>

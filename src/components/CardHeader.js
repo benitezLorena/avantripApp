@@ -7,7 +7,7 @@ const CardHeader = (props) => {
     return(
         <>
             <div className="col-sm-2">
-                <button className="contentCardHeader" onClick={props.onClickCard} >
+                <button className={"contentCardHeader " + props.selectedButton } onClick={props.onClickCard} >
                     <p>{props.description}</p>
                     <span className="offerPriceSince">desde ${props.price}</span>
                 </button>
